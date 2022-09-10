@@ -1,0 +1,10 @@
+{
+    "repo_name": "my-repo-name",
+    "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_name": "Akshat Thakar",
+    "author_email": "akshat.thakar@gmail.com",
+    "github_username": "akshatthakar",
+    "package_version": "0.0.1",
+    "package_description": "Short description",
+    "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}"
+}
